@@ -3,7 +3,7 @@ This is an instance to introduce train xgb with automl framework NNI
 
 # how to start
 ### prepare data
-You should get your data prepared in 'csv' format,
+You should get your data prepared in csv format,
 
 like:
 ```
@@ -32,6 +32,11 @@ config.yml
 ```
 sh stop.sh 
 ```
-to end train
+to end train,the port you used in your experiment will be closed in 10 secs
 
-the port you used in your experiment will be closed in 10 secs
+# Another way
+you can just
+```
+sh scheduling_task.sh
+```
+and set email params to automated the whole process
